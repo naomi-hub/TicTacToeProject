@@ -4,6 +4,8 @@ module com.example.tictactoe {
 
     requires org.controlsfx.controls;
     requires org.kordamp.bootstrapfx.core;
+    requires org.testng;
+    requires org.junit.jupiter.api;
 
     opens com.example.tictactoe to javafx.fxml;
     exports com.example.tictactoe;
